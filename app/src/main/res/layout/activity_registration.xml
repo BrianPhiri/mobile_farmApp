@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="20dp">
+
+
+    <EditText
+        android:id="@+id/userFullNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Full Name"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/userTypeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type of user "
+        android:layout_alignTop="@+id/userNameInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/clearRegistrationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Clear"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addNewUserBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/clearRegistrationBtn"
+        android:layout_alignBottom="@+id/clearRegistrationBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="User E-mail address"
+        android:layout_below="@+id/userFullNameInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userTypeInput"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentEnd="true"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/confPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passwordInput"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentEnd="true"
+        android:hint="Confirm Password"/>
+
+</RelativeLayout>

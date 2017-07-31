@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="20dp">
+
+
+    <EditText
+        android:id="@+id/productNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/productDescriptionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description"
+        android:layout_below="@+id/productNameInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/productPriceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Price"
+        android:layout_below="@+id/productDescriptionInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+
+    <EditText
+        android:id="@+id/farmLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Location"
+        android:layout_below="@+id/productPriceInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Clear"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="78dp" />
+
+    <Button
+        android:id="@+id/sellBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="28dp"
+        android:text="Sell"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/clearBtn"
+        android:layout_alignBottom="@+id/clearBtn"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

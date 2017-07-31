@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066591566251",
+    "firebase_url": "https://mcereals-ee549.firebaseio.com",
+    "project_id": "mcereals-ee549",
+    "storage_bucket": "mcereals-ee549.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066591566251:android:1762b5fa8d908b0e",
+        "android_client_info": {
+          "package_name": "com.example.brianphiri.farm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066591566251-fvrdiev7mjlt2gm89vsiaej3hmddvjm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brianphiri.farm",
+            "certificate_hash": "68f8d369720b20817fce4d6cca8c19edfdaa6c91"
+          }
+        },
+        {
+          "client_id": "1066591566251-dgrq7cv42js51fbbuh3albsqjlf2tkt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuI8HwXtiWnt7wyvLtIXZys4ziXQWqrRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066591566251-dgrq7cv42js51fbbuh3albsqjlf2tkt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
